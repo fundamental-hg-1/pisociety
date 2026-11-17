@@ -13,22 +13,38 @@
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="canonical" href="https://www.pisocietypizza.com/">
     <meta property="og:site_name" content="Pi Society Pizza">
+    <meta property="og:title" content="Pi Society Pizza | Westfield, IN">
+    <meta property="og:url" content="https://www.pisocietypizza.com/">
+    <meta property="og:type" content="website">
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@type": "WebSite",
-            "name": "Pi Society Pizza",
-            "alternateName": "Pi Society Pizza: Good Pizza. Good Company. Timeless.",
-            "description": "Wood-fired artisan pizza located inside the Westfield Collective, just one mile south of the Droplight Grand Park Sports Campus.",
-            "url": "https://www.pisocietypizza.com/",
-            "telephone": "+1-317-648-5424",
-            "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "750 E 181st St",
-                "addressLocality": "Westfield",
-                "addressRegion": "IN",
-                "postalCode": "46074"
-            }
+            "@graph": [
+                {
+                    "@type": "WebSite",
+                    "@id": "https://www.pisocietypizza.com/#website",
+                    "name": "Pi Society Pizza",
+                    "alternateName": "Pi Society Pizza: Good Pizza. Good Company. Timeless.",
+                    "url": "https://www.pisocietypizza.com/"
+                },
+                {
+                    "@type": "Restaurant",
+                    "@id": "https://www.pisocietypizza.com/#restaurant",
+                    "name": "Pi Society Pizza",
+                    "description": "Wood-fired artisan pizza located inside the Westfield Collective, just one mile south of the Droplight Grand Park Sports Campus.",
+                    "url": "https://www.pisocietypizza.com/",
+                    "telephone": "+1-317-648-5424",
+                    "servesCuisine": "Pizza",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "750 E 181st St",
+                        "addressLocality": "Westfield",
+                        "addressRegion": "IN",
+                        "postalCode": "46074",
+                        "addressCountry": "US"
+                    }
+                }
+            ]
         }
     </script>
     <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-TGFSW2G2"></script>
@@ -42,8 +58,8 @@
     <div class="topbar">GOOD PIZZA. GOOD COMPANY. TIMELESS.</div>
 
     <header class="header">
-        <a class="brand" href="#home" aria-label="Pi Society Pizza">
-            <img src="images/pi_company_logo.webp" alt="Pi Society Pizza Logo" width="95" height="80">
+        <a class="brand" href="/" aria-label="Pi Society Pizza">
+            <img src="images/pi_company_logo.webp" alt="Pi Society Pizza" width="95" height="80">
         </a>
         <nav aria-label="Main Navigation">
             <a href="#intro">ABOUT</a>

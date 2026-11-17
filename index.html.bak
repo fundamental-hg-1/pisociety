@@ -3,85 +3,96 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#bb3224">
-    <meta name="description" content="PI Society Pizza — family-owned pizza, good vibes, together. Explore our pizzas, pastas, salads and shareables.">
-    <title>PI Society Pizza</title>
+    <meta name="theme-color" content="#bf3526">
+    <meta name="description" content="Pi Society Pizza at Westfield Collective, 750 E 181st St, Westfield, IN 46074. Family-owned wood-fired artisan pizza, pastas, salads, and shareables.">
+    <title>Pi Society Pizza | Westfield, IN</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
-    <meta property="og:site_name" content="PI Society Pizza, Good Pizza. Good Company. Timeless.">
+    <link rel="canonical" href="https://www.pisocietypizza.com/">
+    <meta property="og:site_name" content="Pi Society Pizza">
     <script type="application/ld+json">
         {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "PI Society Pizza",
-        "alternateName": "Pi Society Pizza: Good Pizza. Good Company. Timeless.",
-        "description": "Wood-fired artisan pizza located inside the Westfield Collective, just one mile south of the Droplight Grand Park Sports Campus.",        
-        "url": "https://pisocietypizza.com/"
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Pi Society Pizza",
+            "alternateName": "Pi Society Pizza: Good Pizza. Good Company. Timeless.",
+            "description": "Wood-fired artisan pizza located inside the Westfield Collective, just one mile south of the Droplight Grand Park Sports Campus.",
+            "url": "https://www.pisocietypizza.com/",
+            "telephone": "+1-317-648-5424",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "750 E 181st St",
+                "addressLocality": "Westfield",
+                "addressRegion": "IN",
+                "postalCode": "46074"
+            }
         }
-</script>
+    </script>
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-TGFSW2G2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    </script>
 </head>
-<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-TGFSW2G2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-</script>
 <body>
     <div class="topbar">GOOD PIZZA. GOOD COMPANY. TIMELESS.</div>
-    
+
     <header class="header">
-        <a class="brand" href="#home" aria-label="PI Society Pizza home">
-            <img src="images/pi_company_logo.webp" alt="PI Society Pizza Logo">
+        <a class="brand" href="#home" aria-label="Pi Society Pizza">
+            <img src="images/pi_company_logo.webp" alt="Pi Society Pizza Logo" width="95" height="80">
         </a>
         <nav aria-label="Main Navigation">
-            <a href="#intro">About</a>
-            <a href="#menu">Menu</a>
-            <a href="#story">Our Story</a>
-            <a href="#visit">Visit Us</a>
+            <a href="#intro">ABOUT</a>
+            <a href="#menu">MENU</a>
+            <a href="#story">OUR STORY</a>
+            <a href="#visit">VISIT US</a>
         </nav>
         <div class="header-right-actions">
-            <a href="https://order.toasttab.com/online/pi-society-wfc" target="_blank" rel="noopener" class="btn btn-red header-order-btn order-popup-trigger">ORDER ONLINE</a>
-            <button class="navtoggle" aria-label="Toggle Navigation">☰</button>
+            <a href="https://order.toasttab.com/online/pi-society" target="_blank" rel="noopener noreferrer" class="btn btn-red header-order-btn order-popup-trigger">ORDER ONLINE</a>
+            <button type="button" class="navtoggle" aria-label="Toggle Navigation" aria-expanded="false">&#9776;</button>
         </div>
     </header>
 
     <main id="home">
         <section class="hero">
-            <div class="hero-photo" role="img" aria-label="Delicious wood-fired pizza" fetchpriority="high"></div>
+            <div class="hero-photo" role="img" aria-label="Delicious wood-fired pizza"></div>
             <div class="hero-shade"></div>
             <div class="hero-content">
+                <!-- SEO H1: Hidden visually, read by Google -->
+                <h1 class="visually-hidden">Pi Society Pizza</h1>
                 <span class="eyebrow"><span class="dot"></span>ESTABLISHED TRADITION</span>
-                <h1>PIZZA<br><em>GOOD VIBES</em><br>TOGETHER</h1>
+                <h2 class="hero-title">PIZZA<br><em>GOOD VIBES</em><br>TOGETHER</h2>
                 <p>Family-owned pizza crafted with passion, premium ingredients, and a timeless neighborhood atmosphere.</p>
                 <div class="hero-actions">
                     <a href="#menu" class="btn btn-red">EXPLORE MENU</a>
                     <a href="#visit" class="btn btn-outline">VISIT US</a>
                 </div>
             </div>
-            <div class="hero-vertical">PI SOCIETY • EST. 2026</div>
+            <div class="hero-vertical">PI SOCIETY &bull; EST. 2026</div>
         </section>
 
         <div class="ticker" aria-hidden="true">
             <div>
-                <span>PIZZA</span><span>•</span>
-                <span>PASTA</span><span>•</span>
-                <span>TIMELESS VIBES</span><span>•</span>
-                <span>FAMILY RECIPES</span><span>•</span>
-				<span>PIZZA</span><span>•</span>
-                <span>PASTA</span><span>•</span>
-                <span>TIMELESS VIBES</span><span>•</span>
-                <span>FAMILY RECIPES</span><span>•</span>
-				<span>PIZZA</span><span>•</span>
-                <span>PASTA</span><span>•</span>
-                <span>TIMELESS VIBES</span><span>•</span>
-                <span>FAMILY RECIPES</span><span>•</span>
-				<span>PIZZA</span><span>•</span>
-                <span>PASTA</span><span>•</span>
-                <span>TIMELESS VIBES</span><span>•</span>
-                <span>FAMILY RECIPES</span><span>•</span>
+                <span>PIZZA</span><span>&bull;</span>
+                <span>PASTA</span><span>&bull;</span>
+                <span>TIMELESS VIBES</span><span>&bull;</span>
+                <span>FAMILY RECIPES</span><span>&bull;</span>
+                <span>PIZZA</span><span>&bull;</span>
+                <span>PASTA</span><span>&bull;</span>
+                <span>TIMELESS VIBES</span><span>&bull;</span>
+                <span>FAMILY RECIPES</span><span>&bull;</span>
+                <span>PIZZA</span><span>&bull;</span>
+                <span>PASTA</span><span>&bull;</span>
+                <span>TIMELESS VIBES</span><span>&bull;</span>
+                <span>FAMILY RECIPES</span><span>&bull;</span>
+                <span>PIZZA</span><span>&bull;</span>
+                <span>PASTA</span><span>&bull;</span>
+                <span>TIMELESS VIBES</span><span>&bull;</span>
+                <span>FAMILY RECIPES</span><span>&bull;</span>
             </div>
         </div>
 
@@ -100,59 +111,70 @@
                 </div>
                 <p>Explore our hand-tossed pizzas, savory pastas, crisp salads, and signature shareables.</p>
             </div>
-            
-            <div class="tabs" role="tablist" aria-label="Menu Categories">
-                <!-- Populated via main.js -->
-            </div>
 
-            <div class="menu-grid" id="menu-container">
-                <!-- Injected via main.js -->
-            </div>
-            
+            <!-- Sticky Category Filter Strip populated dynamically via js/main.js -->
+            <div class="filters" id="menu-filters" role="tablist" aria-label="Menu Categories"></div>
+
+            <!-- Dynamic Menu Container populated via js/main.js -->
+            <div class="menu-grid" id="menu-container" aria-live="polite"></div>
+
             <p class="menu-note">* Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs may increase your risk of foodborne illness.</p>
         </section>
 
         <section class="statement">
-            <span>PI</span>
+            <span aria-hidden="true">PI</span>
             <h2>MADE WITH <em>PASSION</em></h2>
             <p>No shortcuts. Just honest ingredients, the perfect dough, and a blazing hot oven.</p>
         </section>
 
         <section id="story" class="section story">
             <div class="story-visual">
-                <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1800&q=85](https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1800&q=85" alt="Classic Pizza">
-                <div class="story-stamp">EST. <span>•</span> 2026</div>
+                <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1200&q=85" alt="Classic Wood-Fired Pizza" loading="lazy">
+                <div class="story-stamp">EST. <span>&bull;</span> 2026</div>
             </div>
             <div class="story-copy">
                 <span class="section-kicker">OUR STORY</span>
                 <h2>OUR STORY</h2>
-                <p>At PI Society Pizza, we believe some things are simply timeless.</p>
-				<p>Good pizza. Good company. Family and friends gathered around a table. The conversations, the laughter, and that last slice everyone claims they don't want.</p>
-                <p>Our name is a playful nod to <b>π (Pi)</b>—a constant that goes on forever. To us, it's a fitting symbol for something else that never changes: <b>the way great food brings people together.</b></p>
-				<p>We're a family-owned restaurant built on the fundamentals of good cooking. We believe real ingredients make a real difference, which is why we focus on quality ingredients, time-honored techniques, and doing the simple things well. Great dough. Flavorful sauce. Quality cheese. Fresh toppings. And a hot oven.</p>
-				<p>Nothing overly complicated. Just really good pizza made the way it should be.</p>
-				<p>Because while trends come and go, gathering around the table never goes out of style. Whether it's a quick lunch, Friday night with the family, or a table full of friends, we want PI Society to be the kind of place where people come together, share a meal, and stay a little longer.</p>
-				<p><b>Good pizza. Good company. Timeless.</b></p>
-				<strong>— PI SOCIETY PIZZA</strong></br>
-				
-		</div>
+                <p>At Pi Society Pizza, we believe some things are simply timeless.</p>
+                <p>Good pizza. Good company. Family and friends gathered around a table. The conversations, the laughter, and that last slice everyone claims they don't want.</p>
+                <p>Our name is a playful nod to <strong>&pi; (Pi)</strong>—a constant that goes on forever. To us, it's a fitting symbol for something else that never changes: <strong>the way great food brings people together.</strong></p>
+                <p>We're a family-owned restaurant built on the fundamentals of good cooking. We believe real ingredients make a real difference, which is why we focus on quality ingredients, time-honored techniques, and doing the simple things well. Great dough. Flavorful sauce. Quality cheese. Fresh toppings. And a hot oven.</p>
+                <p>Nothing overly complicated. Just really good pizza made the way it should be.</p>
+                <p>Because while trends come and go, gathering around the table never goes out of style. Whether it's a quick lunch, Friday night with the family, or a table full of friends, we want Pi Society to be the kind of place where people come together, share a meal, and stay a little longer.</p>
+                <p><strong>Good pizza. Good company. Timeless.</strong></p>
+                <strong class="story-signoff">&mdash; PI SOCIETY PIZZA</strong>
+            </div>
         </section>
 
-        <section id="visit" class="section visit-us" style="background: var(--black); color: white; text-align: center; padding: 80px 8%;">
-            <span class="section-kicker" style="color: var(--red);">COME SEE US</span>
-            <h2 style="font-family: Oswald, sans-serif; font-size: clamp(36px, 5vw, 64px); margin: 20px 0;">VISIT & CONTACT</h2>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px; margin-top: 40px; text-align: left; max-width: 900px; margin-left: auto; margin-right: auto;">
-                <div>
-                    <h3 style="color: var(--red); font-family: Oswald, sans-serif; font-size: 20px; letter-spacing: 1px; margin-bottom: 10px;">LOCATION/ADDRESS</h3>
-                    <p style="color: #ccc; line-height: 1.6;">750 E 181st St,<br>Westfield, IN 46074<br><br>We're inside Westfield Collective and 1-mile from the Droplight Grand Park Sports Campus</p>
+        <section id="visit" class="section visit-section">
+            <div class="visit-header">
+                <span class="section-kicker">COME SEE US</span>
+                <h2>VISIT &amp; CONTACT</h2>
+                <p class="visit-intro">Located inside Westfield Collective, 1 mile south of the Droplight Grand Park Sports Campus.</p>
+            </div>
+
+            <div class="visit-grid">
+                <div class="visit-card">
+                    <h3>LOCATION / ADDRESS</h3>
+                    <p>750 E 181st St,<br>Westfield, IN 46074<br><br>Located inside Westfield Collective, 1 mile south of the Droplight Grand Park Sports Campus.</p>
                 </div>
-                <div>
-                    <h3 style="color: var(--red); font-family: Oswald, sans-serif; font-size: 20px; letter-spacing: 1px; margin-bottom: 10px;">HOURS OF OPERATION</h3>
-                    <p style="color: #ccc; line-height: 1.6; text-align: right; margin-right:2em; padding-right: 3em;">MON: 11:00 AM – 9:00 PM<br>TUE: 11:00 AM – 9:00 PM<br>WED: 11:00 AM – 9:00 PM<br>THU: 11:00 AM – 9:00 PM<br>FRI: 11:00 AM – 10:00 PM<br>SAT: 10:00 AM – 10:00 PM<br>SUN: 10:00 AM – 9:00 PM</p>
+
+                <div class="visit-card">
+                    <h3>HOURS OF OPERATION</h3>
+                    <ul class="hours-list">
+                        <li><span><strong>Mon &ndash; Thu</strong></span><span>11:00 AM &ndash; 9:00 PM</span></li>
+                        <li><span><strong>Fri</strong></span><span>11:00 AM &ndash; 10:00 PM</span></li>
+                        <li><span><strong>Sat</strong></span><span>10:00 AM &ndash; 10:00 PM</span></li>
+                        <li><span><strong>Sun</strong></span><span>10:00 AM &ndash; 9:00 PM</span></li>
+                    </ul>
                 </div>
-                <div>
-                    <h3 style="color: var(--red); font-family: Oswald, sans-serif; font-size: 20px; letter-spacing: 1px; margin-bottom: 10px;">INQUIRIES & VENUE</h3>
-                    <p style="color: #ccc; line-height: 1.6;">+1 (317) 648-5424<br><a href="mailto:inquiry@fundamental-hg.com" style="color: #fff; text-decoration: underline;">inquiry@fundamental-hg.com</a></p>
+
+                <div class="visit-card">
+                    <h3>INQUIRIES &amp; VENUE &amp; CATERING</h3>
+                    <p>
+                        <strong>Phone:</strong> <a href="tel:+13176485424" class="contact-link">+1 (317) 648-5424</a><br>
+                        <strong>Email:</strong> <a href="mailto:inquiry@fundamental-hg.com" class="contact-link">inquiry@fundamental-hg.com</a>
+                    </p>
                 </div>
             </div>
         </section>
@@ -161,57 +183,61 @@
             <div class="order-inner">
                 <span class="section-kicker">ORDER ONLINE</span>
                 <h2>HUNGRY YET? <em>ORDER ONLINE</em></h2>
-                <p>Get your favorite pizzas, pastas, and shareables through the online portal.</p>
+                <p>Get your favorite pizzas, pastas, and shareables through our online ordering portal.</p>
                 <div class="order-actions">
-                    <button class="btn btn-light order-popup-trigger">ORDER ONLINE</button>
-                    <span>FAST • FRESH • EASY</span>
+                    <a href="https://order.toasttab.com/online/pi-society" target="_blank" rel="noopener noreferrer" class="btn btn-light order-popup-trigger">ORDER ONLINE</a>
+                    <span>FAST &bull; FRESH &bull; EASY</span>
                 </div>
             </div>
-            <div class="order-pi" aria-hidden="true">π</div>
+            <div class="order-pi" aria-hidden="true">&pi;</div>
         </section>
     </main>
 
-    <footer>
-        <div class="footer-top">
-            <div>
-                <img src="images/pi_company_logo.webp" alt="PI Society Pizza Logo">
-                <p style="margin-top: 15px; color: #999;">GOOD PIZZA. GOOD COMPANY. TIMELESS.</p>
-                <div class="legal-links">
-                    <a href="/privacy.html">Privacy Policy</a>
-                    <a href="/terms.html">Terms of Service</a>
-                </div>
-            </div>
-            <div class = "footer-links">
-                <div class="sibling-concepts">
-                <span class="concepts-label" >Explore our other concepts:</span>
-                 <a href="https://www.taco-heist.com" target="_blank" class="concept-link">Taco Heist</a>
-                 <a href="https://www.smashngrab-burgers.com" target="_blank" class="concept-link">Smash & Grab Burgers</a>
-                </div>
-            </div>
-            <div class="footer-links">
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <a href="#home" class="footer-brand" aria-label="Pi Society Pizza Home">
+                <img src="images/pi_company_logo.webp" alt="Pi Society Pizza Logo" width="120" height="100">
+            </a>
+            <p class="footer-tagline">GOOD PIZZA. GOOD COMPANY. TIMELESS.</p>
+
+            <nav class="footer-links" aria-label="Footer Navigation">
                 <a href="#intro">ABOUT</a>
                 <a href="#menu">MENU</a>
-                <a href="#story">STORY</a>
+                <a href="#story">OUR STORY</a>
                 <a href="#visit">VISIT US</a>
+            </nav>
+
+            <div class="sibling-concepts">
+                <span class="concepts-label">Explore our other concepts:</span>
+                <a href="https://www.taco-heist.com" target="_blank" rel="noopener noreferrer" class="concept-link" title="Taco Heist">Taco Heist</a>
+                <a href="https://www.smashngrab-burgers.com" target="_blank" rel="noopener noreferrer" class="concept-link" title="Smash &amp; Grab Burgers">Smash &amp; Grab Burgers</a>
+                <a href="https://www.bowloutrn.com" target="_blank" rel="noopener noreferrer" class="concept-link" title="Bowl Out Rice and Noodles">Bowl Out Rice and Noodles</a>
             </div>
-        </div>
-        <div class="footer-bottom">
-            <span>&copy; 2026 PI Society Pizza. All rights reserved.</span>
-            <span>Family-owned & operated.</span>
+
+            <div class="legal-links">
+                <a href="/privacy.html">Privacy Policy</a>
+                <a href="/terms.html">Terms of Service</a>
+            </div>
+
+            <div class="footer-bottom">
+                <span>&copy; <span id="year">2026</span> Pi Society Pizza &bull; Fundamental Hospitality Group. All rights reserved.</span>
+                <span>Family-owned &amp; operated.</span>
+            </div>
         </div>
     </footer>
 
-  <!-- External Redirect Popup Modal -->
-  <div class="modal-overlay" id="orderModal" style="display: none;">
-    <div class="modal-box">
-      <h3 style="color: var(--black); font-family: Oswald, sans-serif; font-size: 24px; margin-bottom: 15px;">REDIRECTING TO ORDER</h3>
-      <p style="color: var(--grey); margin-bottom: 30px;">You are now being redirected to our secure online ordering partner website.</p>
-      <div class="modal-actions" style="display: flex; justify-content: center; gap: 15px;">
-        <button class="btn btn-red" id="proceedBtn">CONTINUE</button>
-        <button class="btn btn-outline" id="cancelBtn" style="color: var(--black); border-color: var(--black);">CANCEL</button>
-      </div>
+    <!-- External Redirect Popup Modal -->
+    <div class="modal-overlay" id="orderModal" role="dialog" aria-modal="true" aria-labelledby="orderModalTitle">
+        <div class="modal-box">
+            <span class="order-modal-badge">SECURE PORTAL</span>
+            <h3 id="orderModalTitle">REDIRECTING TO ORDER</h3>
+            <p>You are now being redirected to our secure online ordering partner website.</p>
+            <div class="modal-actions">
+                <button type="button" class="btn btn-red" id="proceedBtn">CONTINUE</button>
+                <button type="button" class="btn btn-outline-dark" id="cancelBtn">CANCEL</button>
+            </div>
+        </div>
     </div>
-  </div>
 
     <script defer src="js/menu-data.js"></script>
     <script defer src="js/main.js"></script>
