@@ -137,7 +137,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         ${item.number ? `<div class="menu-number">${escapeHtml(item.number)}</div>` : ""}
                         <div class="item-heading">
                             <h4>${escapeHtml(item.name)}</h4>
-                            ${item.price ? `<strong>${escapeHtml(item.price)}</strong>` : ""}
+                            ${item.price ? `<strong class="${item.price.includes("|") ? "price-dual" : ""}">${escapeHtml(item.price)}</strong>` : ""}
                         </div>
                         ${item.description ? `<p>${escapeHtml(item.description)}</p>` : ""}
                     </div>
@@ -158,57 +158,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    // --- ORDER REDIRECT POPUP MODAL LOGIC ---
-    const orderUrl = "https://order.toasttab.com/online/pi-society";
-    const modal = document.getElementById("orderModal");
-    const proceedBtn = document.getElementById("proceedBtn");
-    const cancelBtn = document.getElementById("cancelBtn");
-    let targetRedirectUrl = orderUrl;
-    let lastFocusedTrigger = null;
-
-    const closeModal = () => {
-        if (modal) modal.classList.remove("active");
-        if (lastFocusedTrigger && typeof lastFocusedTrigger.focus === "function") {
-            lastFocusedTrigger.focus();
-        }
-    };
-
-    document.querySelectorAll(".order-popup-trigger").forEach((trigger) => {
-        trigger.addEventListener("click", (e) => {
-            e.preventDefault();
-            lastFocusedTrigger = trigger;
-            targetRedirectUrl = trigger.getAttribute("href") || orderUrl;
-            if (modal) {
-                modal.classList.add("active");
-                if (proceedBtn) proceedBtn.focus();
-            }
-        });
-    });
-
-    if (proceedBtn) {
-        proceedBtn.addEventListener("click", () => {
-            closeModal();
-            window.open(targetRedirectUrl, "_blank", "noopener,noreferrer");
-        });
-    }
-
-    if (cancelBtn) {
-        cancelBtn.addEventListener("click", closeModal);
-    }
-
-    if (modal) {
-        modal.addEventListener("click", (e) => {
-            if (e.target === modal) {
-                closeModal();
-            }
-        });
-    }
-
-    document.addEventListener("keydown", (e) => {
-        if (e.key === "Escape" && modal && modal.classList.contains("active")) {
-            closeModal();
-        }
-    });
 });
 
 function escapeHtml(str) {

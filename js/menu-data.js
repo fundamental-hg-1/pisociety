@@ -62,54 +62,54 @@ const menuData = [
         ]
     },
     {
-        "category": "Pizzas - 12In Or 16In",
+        "category": "Pizzas (12\" or 16\")",
         "items": [
             {
                 "number": "08",
                 "name": "Classic Cheese",
-                "price": "$13 / $17",
+                "price": "12\" $13 | 16\" $17",
                 "description": "San Marzano tomato sauce base, fresh shredded mozzarella."
             },
             {
                 "number": "09",
                 "name": "Double Pepperoni & Hot Honey",
-                "price": "$15 / $19",
+                "price": "12\" $15 | 16\" $19",
                 "description": "San Marzano tomato sauce base, shredded mozzarella, double layer of cup-and-char pepperoni, finished with wildflower hot honey drizzle."
             },
             {
                 "number": "10",
                 "name": "Meat Lovers",
-                "price": "$15 / $19",
+                "price": "12\" $15 | 16\" $19",
                 "description": "San Marzano tomato sauce base, mozzarella, pepperoni, Italian sausage, smoked bacon bits, and crumbled meatballs."
             },
             {
                 "number": "11",
                 "name": "BBQ Chicken",
-                "price": "$14 / $18",
+                "price": "12\" $14 | 16\" $18",
                 "description": "Sweet BBQ sauce base, mozzarella, grilled chicken and sliced red onion."
             },
             {
                 "number": "12",
                 "name": "White Garlic & Mushroom",
-                "price": "$14 / $18",
+                "price": "12\" $14 | 16\" $18",
                 "description": "Garlic oil base, mozzarella, roasted wild mushrooms, thyme, and black truffle oil drizzle."
             },
             {
                 "number": "13",
                 "name": "Four-Cheese Veggie",
-                "price": "$15 / $19",
+                "price": "12\" $15 | 16\" $19",
                 "description": "San Marzano tomato sauce base, mozzarella, provolone, parmesan, ricotta dollops, bell peppers, red onion, and fresh baby spinach."
             },
             {
                 "number": "14",
                 "name": "The Classic Margherita",
-                "price": "$14 / $18",
+                "price": "12\" $14 | 16\" $18",
                 "description": "San Marzano tomato sauce base, fresh mozzarella pearls, fresh basil leaves, and extra virgin olive oil drizzle."
             },
             {
                 "number": "15",
                 "name": "BYO Pizza",
-                "price": "$10 / $14",
+                "price": "12\" $10 | 16\" $14",
                 "description": "Sauce Base: San Marzano tomato sauce, sweet BBQ or Garlic Oil \t\t                 Protein: Pepperoni, Italian Sausage, Bacon, Meatballs and/or Chicken $2 each                    Veggies: Basil, Red Onion, Mushroom, Sliced Red Onion, Bell Peppers, Spinach, Banana Peppers $1 Each"
             }
         ]

@@ -37,7 +37,7 @@
                     "@type": "Restaurant",
                     "@id": "https://www.pisocietypizza.com/#restaurant",
                     "name": "Pi Society Pizza",
-                    "description": "Wood-fired artisan pizza located inside the Westfield Collective, just one mile south of the Droplight Grand Park Sports Campus.",
+                    "description": "Family-owned wood-fired artisan pizza located inside Westfield Collective in Westfield, Indiana.",
                     "url": "https://www.pisocietypizza.com/",
                     "telephone": "+1-317-648-5424",
                     "servesCuisine": "Pizza",
@@ -58,18 +58,20 @@
     <div class="topbar">GOOD PIZZA. GOOD COMPANY. TIMELESS.</div>
 
     <header class="header">
-        <a class="brand" href="/" aria-label="Pi Society Pizza">
+        <a class="brand" href="index.html" aria-label="Pi Society Pizza">
             <img src="images/pi_company_logo.webp" alt="Pi Society Pizza" width="95" height="80">
         </a>
         <nav aria-label="Main Navigation">
-            <a href="#intro">ABOUT</a>
             <a href="#menu">MENU</a>
             <a href="#story">OUR STORY</a>
             <a href="#visit">VISIT US</a>
             <a href="blog/index.html">BLOG</a>
         </nav>
         <div class="header-right-actions">
-            <a href="https://order.toasttab.com/online/pi-society" target="_blank" rel="noopener noreferrer" class="btn btn-red header-order-btn order-popup-trigger">ORDER ONLINE</a>
+            <div class="order-cta-wrap order-cta-header">
+                <a href="https://www.meandu.app/westfield-collective-mvo/counter" target="_blank" rel="noopener noreferrer" class="btn btn-red header-order-btn" aria-label="Order Online (Order via Toast)" title="Order via Toast">ORDER ONLINE</a>
+                <span class="order-subtext">Order via Toast</span>
+            </div>
             <button type="button" class="navtoggle" aria-label="Toggle Navigation" aria-expanded="false">&#9776;</button>
         </div>
     </header>
@@ -94,22 +96,14 @@
 
         <div class="ticker" aria-hidden="true">
             <div>
-                <span>PIZZA</span><span>&bull;</span>
-                <span>PASTA</span><span>&bull;</span>
-                <span>TIMELESS VIBES</span><span>&bull;</span>
-                <span>FAMILY RECIPES</span><span>&bull;</span>
-                <span>PIZZA</span><span>&bull;</span>
-                <span>PASTA</span><span>&bull;</span>
-                <span>TIMELESS VIBES</span><span>&bull;</span>
-                <span>FAMILY RECIPES</span><span>&bull;</span>
-                <span>PIZZA</span><span>&bull;</span>
-                <span>PASTA</span><span>&bull;</span>
-                <span>TIMELESS VIBES</span><span>&bull;</span>
-                <span>FAMILY RECIPES</span><span>&bull;</span>
-                <span>PIZZA</span><span>&bull;</span>
-                <span>PASTA</span><span>&bull;</span>
-                <span>TIMELESS VIBES</span><span>&bull;</span>
-                <span>FAMILY RECIPES</span><span>&bull;</span>
+                <span>WOOD-FIRED PIZZA</span><span>&bull;</span>
+                <span>HOUSE PASTA</span><span>&bull;</span>
+                <span>GOOD COMPANY</span><span>&bull;</span>
+                <span>WESTFIELD COLLECTIVE</span><span>&bull;</span>
+                <span>WOOD-FIRED PIZZA</span><span>&bull;</span>
+                <span>HOUSE PASTA</span><span>&bull;</span>
+                <span>GOOD COMPANY</span><span>&bull;</span>
+                <span>WESTFIELD COLLECTIVE</span><span>&bull;</span>
             </div>
         </div>
 
@@ -150,7 +144,7 @@
                 <div class="story-stamp">EST. <span>&bull;</span> 2026</div>
             </div>
             <div class="story-copy">
-                <span class="section-kicker">OUR STORY</span>
+                <span class="section-kicker">OUR ROOTS</span>
                 <h2>OUR STORY</h2>
                 <p>At Pi Society Pizza, we believe some things are simply timeless.</p>
                 <p>Good pizza. Good company. Family and friends gathered around a table. The conversations, the laughter, and that last slice everyone claims they don't want.</p>
@@ -167,13 +161,13 @@
             <div class="visit-header">
                 <span class="section-kicker">COME SEE US</span>
                 <h2>VISIT &amp; CONTACT</h2>
-                <p class="visit-intro">Located inside Westfield Collective, 1 mile south of the Droplight Grand Park Sports Campus.</p>
+                <p class="visit-intro">Located inside Westfield Collective in Westfield, Indiana—serving families, teams, and neighbors across Hamilton County.</p>
             </div>
 
             <div class="visit-grid">
                 <div class="visit-card">
                     <h3>LOCATION / ADDRESS</h3>
-                    <p>750 E 181st St,<br>Westfield, IN 46074<br><br>Located inside Westfield Collective, 1 mile south of the Droplight Grand Park Sports Campus.</p>
+                    <p>750 E 181st St,<br>Westfield, IN 46074<br><br>Located inside Westfield Collective</p>
                 </div>
 
                 <div class="visit-card">
@@ -202,8 +196,11 @@
                 <h2>HUNGRY YET? <em>ORDER ONLINE</em></h2>
                 <p>Get your favorite pizzas, pastas, and shareables through our online ordering portal.</p>
                 <div class="order-actions">
-                    <a href="https://order.toasttab.com/online/pi-society" target="_blank" rel="noopener noreferrer" class="btn btn-light order-popup-trigger">ORDER ONLINE</a>
-                    <span>FAST &bull; FRESH &bull; EASY</span>
+                    <div class="order-cta-wrap order-cta-banner">
+                        <a href="https://www.meandu.app/westfield-collective-mvo/counter" target="_blank" rel="noopener noreferrer" class="btn btn-light" aria-label="Order Online (Order via Toast)" title="Order via Toast">ORDER ONLINE</a>
+                        <span class="order-subtext">Order via Toast</span>
+                    </div>
+                    <span class="order-portal-note">FAST &bull; FRESH &bull; EASY</span>
                 </div>
             </div>
             <div class="order-pi" aria-hidden="true">&pi;</div>
@@ -218,7 +215,6 @@
             <p class="footer-tagline">GOOD PIZZA. GOOD COMPANY. TIMELESS.</p>
 
             <nav class="footer-links" aria-label="Footer Navigation">
-                <a href="#intro">ABOUT</a>
                 <a href="#menu">MENU</a>
                 <a href="#story">OUR STORY</a>
                 <a href="#visit">VISIT US</a>
@@ -233,8 +229,8 @@
             </div>
 
             <div class="legal-links">
-                <a href="/privacy.html">Privacy Policy</a>
-                <a href="/terms.html">Terms of Service</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
             </div>
 
             <div class="footer-bottom">
@@ -243,19 +239,6 @@
             </div>
         </div>
     </footer>
-
-    <!-- External Redirect Popup Modal -->
-    <div class="modal-overlay" id="orderModal" role="dialog" aria-modal="true" aria-labelledby="orderModalTitle">
-        <div class="modal-box">
-            <span class="order-modal-badge">SECURE PORTAL</span>
-            <h3 id="orderModalTitle">REDIRECTING TO ORDER</h3>
-            <p>You are now being redirected to our secure online ordering partner website.</p>
-            <div class="modal-actions">
-                <button type="button" class="btn btn-red" id="proceedBtn">CONTINUE</button>
-                <button type="button" class="btn btn-outline-dark" id="cancelBtn">CANCEL</button>
-            </div>
-        </div>
-    </div>
 
     <script defer src="js/menu-data.js"></script>
     <script defer src="js/main.js"></script>
