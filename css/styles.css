@@ -950,6 +950,18 @@ h2 em {
     margin: 0;
 }
 
+.footer-location {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6px 10px;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: #dfd6cb;
+    margin-top: -6px;
+}
+
 .footer-links {
     display: flex;
     justify-content: center;
@@ -1430,6 +1442,15 @@ h2 em {
 
     .story-visual img {
         max-width: 360px;
+    }
+
+    .footer-location {
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .footer-location .footer-sep {
+        display: none;
     }
 
     .footer-bottom {
